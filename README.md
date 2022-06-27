@@ -61,5 +61,5 @@ Here is an example of the JSON response:
                 },
  ...
  ```
- Note that `Laureate.fullName` is optional because some time the Nobel prize is awarded to an organizations instead of a person.
+ Note that `Laureate.fullName` is optional because some times the Nobel prize is awarded to an organizations instead of a person.
  
