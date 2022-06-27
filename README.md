@@ -2,7 +2,7 @@
 Parse a JSON returned from a URL
 
 
-Used the public endpoint: 
+Used this public endpoint: 
 https://api.nobelprize.org/2.1/nobelPrizes
 
 >Note. For a list of public API's reach this list:
@@ -61,4 +61,5 @@ Here is an example of the JSON response:
                 },
  ...
  ```
+ Note that Laureate.fullName is optional because some time the Nobel prize is awarded to an organizations instead of a person.
  
