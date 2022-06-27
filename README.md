@@ -63,3 +63,48 @@ Here is an example of the JSON response:
  ```
  Note that `Laureate.fullName` is optional because some times the Nobel prize is awarded to an organizations instead of a person.
  
+It list the awarded of 2020:
+```
+YEAR 2020 Nobel Prizes: 
+
+Category: Economic Sciences
+Prize amount: 10000000
+Date awarded: 2020-10-12
+Laureate:  Paul R. Milgrom
+Motivation: for improvements to auction theory and inventions of new auction formats
+Laureate:  Robert B. Wilson
+Motivation: for improvements to auction theory and inventions of new auction formats
+====
+Category: Literature
+Prize amount: 10000000
+Date awarded: 2020-10-08
+Laureate:  Louise Glück
+Motivation: for her unmistakable poetic voice that with austere beauty makes individual existence universal
+====
+Category: Peace
+Prize amount: 10000000
+Date awarded: 2020-10-09
+Laureate:  Organization
+Motivation: for its efforts to combat hunger, for its contribution to bettering conditions for peace in conflict-affected areas and for acting as a driving force in efforts to prevent the use of hunger as a weapon of war and conflict
+====
+Category: Physics
+Prize amount: 10000000
+Date awarded: 2020-10-06
+Laureate:  Roger Penrose
+Motivation: for the discovery that black hole formation is a robust prediction of the general theory of relativity
+Laureate:  Reinhard Genzel
+Motivation: for the discovery of a supermassive compact object at the centre of our galaxy
+Laureate:  Andrea Ghez
+Motivation: for the discovery of a supermassive compact object at the centre of our galaxy
+====
+Category: Physiology or Medicine
+Prize amount: 10000000
+Date awarded: 2020-10-05
+Laureate:  Harvey J. Alter
+Motivation: for the discovery of Hepatitis C virus
+Laureate:  Michael Houghton
+Motivation: for the discovery of Hepatitis C virus
+Laureate:  Charles M. Rice
+Motivation: for the discovery of Hepatitis C virus
+====
+```
