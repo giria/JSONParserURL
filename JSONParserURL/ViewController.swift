@@ -95,21 +95,20 @@ class ViewController: UIViewController {
             let decodedData: Root = try JSONDecoder().decode(Root.self,
                                                        from: jsonData)
             
-            print("YEAR 2020 novel \n")
+            print("YEAR 2020 Nobel Prizes: \n")
             for item in decodedData.nobelPrizes {
                 print("Category: \(item.category.en)")
                 print("Prize amount: \(item.prizeAmount)")
                 print ("Date awarded: \(item.dateAwarded)")
                 for laureate in item.laureates {
-                    print("Laureate:  \(laureate.fullName?.en)")
+                    let laureateValue = (laureate.fullName?.en )
+                    print("Laureate:  \(laureateValue ?? "Organization")")
                     print("Motivation: \(laureate.motivation.en)")
                 }
                 
                 print("====")
             }
             
-            print("Year: ", decodedData.nobelPrizes[0].awardYear)
-            print("Description: ", decodedData.nobelPrizes[0].laureates[0].fullName)
             
             print("===================================")
         } catch {
