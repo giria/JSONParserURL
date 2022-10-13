@@ -63,7 +63,7 @@ Here is an example of the JSON response:
  ```
  Note that `Laureate.fullName` is optional because some times the Nobel prize is awarded to an organizations instead of a person.
  
-It list the awarded of 2020:
+Here is the list of the awarded of 2020:
 ```
 YEAR 2020 Nobel Prizes: 
 
